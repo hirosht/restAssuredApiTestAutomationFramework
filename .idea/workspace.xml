@@ -13,10 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="881fa2db-0f55-4432-b9cc-4e61e15ad24b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hiroshtrazor/apiframework/RestAssuredConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_postman_api.java" afterDir="false" />
+    <list default="true" id="881fa2db-0f55-4432-b9cc-4e61e15ad24b" name="Default Changelist" comment="RestTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hiroshtrazor/apiframework/RestAssuredConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hiroshtrazor/apiframework/RestAssuredConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_postman_api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_postman_api.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="test_google.makeSureThatGoogleIsUp_1" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -86,6 +87,14 @@
       <option name="presentableId" value="Default" />
       <updated>1596364344392</updated>
     </task>
+    <task id="LOCAL-00001" summary="RestTest">
+      <created>1596365628171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596365628171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +107,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RestTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1596364421352">
@@ -124,6 +137,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="0" y="24" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1596365292512" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1596366838107">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596366838107" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596365839001">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596365839001" />
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596365586974">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1596365586974" />
     <state x="691" y="0" width="585" height="738" key="find.popup" timestamp="1596365061994">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
