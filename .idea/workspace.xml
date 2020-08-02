@@ -14,16 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881fa2db-0f55-4432-b9cc-4e61e15ad24b" name="Default Changelist" comment="RestTest">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/common/GoogleEndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/common/PostmanEndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/resources/GoogleData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/resources/PostmanData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hiroshtrazor/apiframework/RestAssuredConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hiroshtrazor/apiframework/RestAssuredConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_google.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_google.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_postman_api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hiroshtrazor/test/test_postman_api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hiroshtrazor/apiframework/RestAssuredConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hiroshtrazor/apiframework/RestAssuredConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hiroshtrazor/test/test_google.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hiroshtrazor/test/test_google.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hiroshtrazor/test/test_postman_api.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hiroshtrazor/test/test_postman_api.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.test_postman_api.retrieveCurrentUTCTime">
+  <component name="RunManager" selected="TestNG.test_google.makeSureThatGoogleIsUp">
     <configuration name="test_google.makeSureThatGoogleIsUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssuredApiTAF" />
       <extension name="coverage">
@@ -118,23 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_postman_api" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssuredApiTAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hiroshtrazor.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hiroshtrazor.test" />
-      <option name="MAIN_CLASS_NAME" value="com.hiroshtrazor.test.test_postman_api" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test_postman_api.retrieveCurrentUTCTime" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssuredApiTAF" />
       <extension name="coverage">
@@ -153,13 +133,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test_postman_api.validateLeapYearHardAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssuredApiTAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hiroshtrazor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hiroshtrazor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hiroshtrazor.test.test_postman_api" />
+      <option name="METHOD_NAME" value="validateLeapYearHardAssertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test_google.makeSureThatGoogleIsUp" />
+        <item itemvalue="TestNG.test_postman_api.validateLeapYearHardAssertion" />
         <item itemvalue="TestNG.test_postman_api.retrieveCurrentUTCTime" />
         <item itemvalue="TestNG.test_postman_api (2)" />
         <item itemvalue="TestNG.test_postman_api (1)" />
-        <item itemvalue="TestNG.test_postman_api" />
-        <item itemvalue="TestNG.test_google.makeSureThatGoogleIsUp" />
       </list>
     </recent_temporary>
   </component>
@@ -209,22 +207,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1596368181474" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1596370195566">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1596373234419">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596370195566" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1596370195566">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596373234419" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1596373234419">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596370195566" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1596370195566">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596373234419" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1596373234418">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596370195566" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1596370195566">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596373234418" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1596373234419">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596370195566" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596373234419" />
     <state x="0" y="24" key="Maven.ArtifactSearchDialog" timestamp="1596365292512">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
